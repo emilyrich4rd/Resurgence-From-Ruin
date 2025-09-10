@@ -58,7 +58,7 @@ while running:
                             while mazeButton.flag == True:
                                 maze = True
                                 display.fill((0,0,0)) # clear screen to get rid of menu
-                                randomGems = 100 # randint(25, 60)
+                                randomGems = randint(25, 60)
                                 allGems = setUpMaze(randomGems)
                                 grid = resetMaze()
                                 mazeFunctions(grid, allGems) # shows how the maze looks before countdown
